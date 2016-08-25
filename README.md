@@ -46,9 +46,13 @@ trainingSequencePath: /home/michalnowicki/Desktop/SP_PUT_CM_1_train/
 testSequencePath: /home/michalnowicki/Desktop/SP_PUT_CM_1_test/
 ```
 
+After cloning the repository, the system can be build with:
+
+`mkdir build && cd build && cmake .. && make`
+
 The system can be run with command:
 
-`./test_OpenABLE ../config.txt`
+`./FastABLE_vs_OpenABLE ../config.txt`
 
 
 # Running FastABLE on Nordlandsbanen dataset
@@ -57,11 +61,11 @@ The Nordlandsbanen dataset can be found at http://www.nrk.no/nordlandsbanen/. Th
 
 The FastABLE can be run on the following dataset:
 
-`./test_OpenABLE ../config.txt pathToFile.mp4 pathToFile2.mp4`
+`./FastABLE_vs_OpenABLE ../config.txt pathToFile.mp4 pathToFile2.mp4`
 
 In our case the path had the following format:
 
-`./test_OpenABLE ../config.txt ~/Desktop/nordlandsbanen.spring.sync.1920x1080.h264.nrk.mp4%2Fnordlandsbanen.spring.sync.1920x1080.h264.nrk.mp4 ~/Desktop/nordlandsbanen.fall.sync.1920x1080.h264.nrk.mp4%2Fnordlandsbanen.fall.sync.1920x1080.h264.nrk.mp4`
+`./FastABLE_vs_OpenABLE ../config.txt ~/Desktop/nordlandsbanen.spring.sync.1920x1080.h264.nrk.mp4%2Fnordlandsbanen.spring.sync.1920x1080.h264.nrk.mp4 ~/Desktop/nordlandsbanen.fall.sync.1920x1080.h264.nrk.mp4%2Fnordlandsbanen.fall.sync.1920x1080.h264.nrk.mp4`
 
 Before running please verify the parameters in config.txt. According to [3], the compareLength can be set to 300, while maximum number of frames has to specified due to huge size of the dataset (it is not possible to process it fully).
 
