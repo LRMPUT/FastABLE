@@ -1,0 +1,36 @@
+%YAML:1.0
+
+#-----------------------------------------------------------------------------
+
+#REPRESENTATION PARAMETERS
+
+#If printed, you can choose the similarity matrix color (Options: 0-11)
+s_color: 7
+
+#If 1, the program shows the processed images
+show_images: 0
+
+#-----------------------------------------------------------------------------
+
+#DESCRIPTION AND MATCHING PARAMETERS
+
+#Number of bits used in the patch for global image description
+patch_size: 64
+
+#The number of images to be matched in sequence in each iteration
+compareLength: 300
+
+# more than 1 means more matches (but possibly incorrect), 1 - play safe
+moreMatchCoeff: 1.00
+
+#------------------------------------------------------------------------------
+
+# DATASET PARAMETERS
+# trainSequencePath - path with datasets with prerecorded sequences
+# testSequencePath - path with dataset recorded during operation
+
+trainSequencePath: /home/michalnowicki/Desktop/SP_PUT_CM_1_train/
+
+testSequencePath: /home/michalnowicki/Desktop/SP_PUT_CM_1_test/Test3/
+
+#------------------------------------------------------------------------------
