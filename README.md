@@ -5,10 +5,10 @@ FastABLE is an accelerated and modified version of OpenABLE that suits the needs
 The code is made available under the BSD license. In case of using the software in your own work, we kindly ask you to consider citing the following papers:
 
 FastABLE:
-* [1] M. Nowicki, J. Wietrzykowski and P. Skrzypczyński, ``Efficient Vision Data Processing on a Mobile Device for Indoor Localization'', IEEE Signal Processing Letters, 2016 (submitted)
+* [1] M. Nowicki, J. Wietrzykowski and P. Skrzypczyński, ``Real-Time Visual Place Recognition for Personal Localization on a Mobile Device'', Wireless Personal Communication, 2017 (waiting for acceptance after minor revision)
 
 Comparison between OpenABLE and FAB-MAP for indoor localization:
-* [2] M. Nowicki, J. Wietrzykowski and P. Skrzypczyński, ``Experimental Evaluation of Visual Place Recognition Algorithms for Personal Indoor Localization'', in International Conference on Indoor Positioning and Indoor Navigation (IPIN 2016), 2016 (to be published)
+* [2] M. Nowicki, J. Wietrzykowski and P. Skrzypczyński, ``Experimental Evaluation of Visual Place Recognition Algorithms for Personal Indoor Localization'', in International Conference on Indoor Positioning and Indoor Navigation (IPIN 2016), p. 1-8, Alcala de Henares, Spain, 2016.
 
 The FastABLE is heavily based on OpenABLE and therefore we ask you to also cite the original OpenABLE work:
 
@@ -19,7 +19,6 @@ The FastABLE is heavily based on OpenABLE and therefore we ask you to also cite 
 * [5] R. Arroyo, P. F. Alcantarilla, L. M. Bergasa, J. J. Yebes and S. Bronte, "Fast and Effective Visual Place Recognition using Binary Codes and Disparity Information", in IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), pp. 3089-3094, Chicago, Illinois (United States), September 2014.
 
 * [6] R. Arroyo, P. F. Alcantarilla, L. M. Bergasa, J. J. Yebes and S. Gámez, "Bidirectional Loop Closure Detection on Panoramas for Visual Navigation", in IEEE Intelligent Vehicles Symposium (IV), pp. 1378-1383, Dearborn, Michigan (United States), June 2014.
-
 
 
 # Running FastABLE on PUT MC
