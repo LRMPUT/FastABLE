@@ -20,6 +20,7 @@ The FastABLE is heavily based on OpenABLE and therefore we ask you to also cite 
 
 * [6] R. Arroyo, P. F. Alcantarilla, L. M. Bergasa, J. J. Yebes and S. Gámez, "Bidirectional Loop Closure Detection on Panoramas for Visual Navigation", in IEEE Intelligent Vehicles Symposium (IV), pp. 1378-1383, Dearborn, Michigan (United States), June 2014.
 
+The Android version of the FastABLE is available at https://github.com/LRMPUT/FastABLE_android
 
 # Running FastABLE on PUT MC
 
